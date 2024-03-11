@@ -145,7 +145,7 @@ section {
 /* Profile section */
 #profile {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center; 
     height: 80vh;
 }
@@ -158,9 +158,8 @@ section {
 }
 
 .section__text {
+    align-self: center;
     text-align: center;
-    margin: center; 
-
 }
 
 .section__text__p {
@@ -169,8 +168,33 @@ section {
     margin-top: 2rem;
 }
 
+.section__text__p1 {
+    text-align: center;
+}
+
+.section__text__p2{
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+}
+
+
 .title {
     font-size: 3rem;
+    text-align: center;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/*ICON*/
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
 }
 
 @media screen and (max-width: 768px) {
